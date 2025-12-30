@@ -1,19 +1,17 @@
-<h1 align="center">¡Hola! Soy Yan Portero 👋</h1>
+# ¡Hola! Soy Yan Portero 👋
 
-<p align="center">
-  <b>👨‍💻 Estudiante de Ingeniería en Ciencias de la Computación</b><br>
-  Guayaquil, Ecuador 🇪🇨
-</p>
+### 👨‍💻 Estudiante de Ingeniería en Ciencias de la Computación
+**Guayaquil, Ecuador** 🇪🇨
 
-<p align="center">
-  ¡Bienvenido! Soy un desarrollador enfocado en backend y lógica de programación.<br>
-  Actualmente transicionando hacia el ecosistema empresarial con <b>.NET</b>.
-</p>
+¡Bienvenido a mi perfil! Soy un desarrollador de software apasionado por la lógica de programación, la arquitectura de backend y la ciberseguridad. Me encanta resolver problemas complejos y actualmente estoy transicionando hacia el desarrollo empresarial con el ecosistema .NET.
 
 ---
 
-<h3 align="center">🛠️ Tech Stack</h3>
+### 🛠️ Lenguajes y Herramientas
 
+Mi arsenal técnico actual y tecnologías que uso en mis proyectos universitarios y personales:
+
+---
 <p align="center">
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" height="28"/>
   <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" height="28"/>
@@ -26,25 +24,33 @@
 
 ---
 
-<h3 align="center">📊 Mis Estadísticas</h3>
+### 🚀 En qué estoy trabajando / Aprendiendo
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" style="border: none;">
-        <img src="https://github-readme-stats.vercel.app/api?username=YEYE2e&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Stats" width="400" />
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YEYE2e&layout=compact&theme=tokyonight&hide_border=true" alt="Langs" width="320" />
-      </td>
-    </tr>
-  </table>
-</div>
+* 🔭 **Actualmente:** Profundizando en **C# y Blazor** para desarrollo de aplicaciones web modernas.
+* 🛡️ **Interés:** Ciberseguridad y protección de datos.
+* 🎓 **Proyectos recientes:**
+    * **XML Parser:** Un analizador sintáctico personalizado.
+    * **Sistema de Gestión de Museos:** Aplicación completa para administración de inventarios.
 
 ---
 
-<h3 align="center">📫 Contáctame</h3>
+### 📊 Mis Estadísticas
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YEYE2e/YEYE2e/main/profile-summary-card-output/chartreuse_dark/0-profile-details.svg" alt="Resumen General" width="100%">
+  <br>
+
+  <img src="https://raw.githubusercontent.com/YEYE2e/YEYE2e/main/profile-summary-card-output/chartreuse_dark/1-repos-per-language.svg" alt="Lenguajes por Repo" height="170">
+  <img src="https://raw.githubusercontent.com/YEYE2e/YEYE2e/main/profile-summary-card-output/chartreuse_dark/2-most-commit-language.svg" alt="Lenguajes por Commits" height="170">
+  <br>
+
+  <img src="https://raw.githubusercontent.com/YEYE2e/YEYE2e/main/profile-summary-card-output/chartreuse_dark/3-stats.svg" alt="Stats Numéricas" height="170">
+  <img src="https://raw.githubusercontent.com/YEYE2e/YEYE2e/main/profile-summary-card-output/chartreuse_dark/4-productive-time.svg" alt="Productividad" height="170">
+</p>
+
+---
+
+### 📫 Contáctame
 <p align="center">
   <a href="https://www.linkedin.com/in/yanporteroguzman19">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
@@ -54,17 +60,3 @@
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge"/>
   </a>
 </p>
-<!--
-**YEYE2e/YEYE2e** is a  ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
