@@ -35,12 +35,8 @@ Mi arsenal técnico actual y tecnologías que uso en mis proyectos universitario
 
 ### 📊 Mis Estadísticas de GitHub
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YEYE2e&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Yan's GitHub Stats" />
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YEYE2e&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" />
-</p>
-
+![Yan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=YEYE2e&show_icons=true&theme=tokyonight&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YEYE2e&layout=compact&theme=tokyonight&hide_border=true)
 ---
 
 #### 📫 Contáctame
