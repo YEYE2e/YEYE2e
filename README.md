@@ -52,7 +52,7 @@ Mi arsenal técnico actual y tecnologías que uso en mis proyectos universitario
 
 ### 📫 Contáctame
 <p align="center">
-  <a href="https://www.linkedin.com/in/yanporteroguzman19">
+  <a href="https://www.linkedin.com/in/yanporteroguzman">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
   &nbsp;
