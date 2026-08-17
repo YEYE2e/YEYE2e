@@ -37,15 +37,15 @@ Mi arsenal técnico actual y tecnologías que uso en mis proyectos universitario
 ### 📊 Mis Estadísticas
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YEYE2e/YEYE2e/main/profile-summary-card-output/chartreuse_dark/0-profile-details.svg" alt="Resumen General" width="100%">
+  <img src="https://raw.githubusercontent.com/YEYE2e/YEYE2e/main/profile-summary-card-output/apprentice/0-profile-details.svg" alt="Resumen General" width="100%">
   <br>
 
-  <img src="https://raw.githubusercontent.com/YEYE2e/YEYE2e/main/profile-summary-card-output/chartreuse_dark/1-repos-per-language.svg" alt="Lenguajes por Repo" height="170">
-  <img src="https://raw.githubusercontent.com/YEYE2e/YEYE2e/main/profile-summary-card-output/chartreuse_dark/2-most-commit-language.svg" alt="Lenguajes por Commits" height="170">
+  <img src="https://raw.githubusercontent.com/YEYE2e/YEYE2e/main/profile-summary-card-output/apprentice/1-repos-per-language.svg" alt="Lenguajes por Repo" height="170">
+  <img src="https://raw.githubusercontent.com/YEYE2e/YEYE2e/main/profile-summary-card-output/apprentice/2-most-commit-language.svg" alt="Lenguajes por Commits" height="170">
   <br>
 
-  <img src="https://raw.githubusercontent.com/YEYE2e/YEYE2e/main/profile-summary-card-output/chartreuse_dark/3-stats.svg" alt="Stats Numéricas" height="170">
-  <img src="https://raw.githubusercontent.com/YEYE2e/YEYE2e/main/profile-summary-card-output/chartreuse_dark/4-productive-time.svg" alt="Productividad" height="170">
+  <img src="https://raw.githubusercontent.com/YEYE2e/YEYE2e/main/profile-summary-card-output/apprentice/3-stats.svg" alt="Stats Numéricas" height="170">
+  <img src="https://raw.githubusercontent.com/YEYE2e/YEYE2e/main/profile-summary-card-output/apprentice/4-productive-time.svg" alt="Productividad" height="170">
 </p>
 
 ---
