@@ -1,10 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="244" viewBox="0 0 1000 244" role="img" aria-labelledby="title desc">
   <title id="title">Yan Portero G. — Software Developer</title>
-  <desc id="desc">Minimal black banner with warm-white typography. Backend and software engineering.</desc>
-  <rect width="1000" height="250" fill="#111111"/>
-  <path d="M54 38 H946" stroke="#F5F3EE" stroke-width="2"/>
-  <text x="50" y="146" fill="#F5F3EE" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700" letter-spacing="-2">YAN PORTERO G.</text>
-  <text x="56" y="201" fill="#F5F3EE" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="4">SOFTWARE DEVELOPER</text>
-  <text x="945" y="201" text-anchor="end" fill="#F5F3EE" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="2">BACKEND / DATA</text>
-  <path d="M54 218 H946" stroke="#F5F3EE" stroke-width="2"/>
+  <desc id="desc">Black minimalist profile banner with a centered name in warm white.</desc>
+  <rect width="1000" height="244" fill="#111111"/>
+  <path d="M58 40 H942" stroke="#F5F3EE" stroke-width="1.6" opacity=".65"/>
+  <text x="500" y="133" fill="#F5F3EE" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="700" letter-spacing="-2">YAN PORTERO G.</text>
+  <text x="500" y="177" fill="#F5F3EE" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="5">SOFTWARE DEVELOPER</text>
+  <path d="M58 206 H942" stroke="#F5F3EE" stroke-width="1.6" opacity=".65"/>
 </svg>
