@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Yan Wei — Software Developer" width="100%" />
+  <img src="./assets/profile-banner.svg" alt="Yan Portero G. — Software Developer" width="100%" />
 </p>
 
 <p align="center">
