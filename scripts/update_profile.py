@@ -34,7 +34,6 @@ def dashboard(repos: list, user: str, stamp: str) -> str:
     stars = sum(int(r.get("stargazers_count") or 0) for r in public)
     langs = Counter(r["language"] for r in public if r.get("language"))
     newest = sorted(public, key=lambda r: r.get("pushed_at") or "", reverse=True)
-    lang = "  /  ".join(escape(name.upper()) for name, _ in langs.most_common(4)) or "NO LANGUAGE DATA"
     latest = escape((newest[0]["name"] if newest else "NO PUBLIC REPOS")[:42])
     metrics = [("REPOSITORIES", str(len(public))), ("STARS", str(stars)), ("LANGUAGES", str(len(langs)))]
     segments = []
@@ -45,7 +44,7 @@ def dashboard(repos: list, user: str, stamp: str) -> str:
             f'<text x="{x+18}" y="142" fill="{DARK}" font-size="15" font-weight="700" letter-spacing="1.5">{label}</text>',
             f'<text x="{x+18}" y="220" fill="{DARK}" font-size="67" font-weight="700">{escape(value)}</text>',
         ]
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="404" viewBox="0 0 1000 404" role="img" aria-labelledby="title desc">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" role="img" aria-labelledby="title desc">
 <title id="title">Public GitHub activity for {escape(user)}</title>
 <desc id="desc">Updated {stamp}; public non-fork repository count, stars, programming languages, and latest pushed repository.</desc>
 <rect width="1000" height="404" fill="{DARK}"/>
@@ -53,11 +52,9 @@ def dashboard(repos: list, user: str, stamp: str) -> str:
 <text x="945" y="61" text-anchor="end" fill="{IVORY}" font-family="Arial,Helvetica,sans-serif" font-size="14">{stamp} UTC</text>
 <path d="M55 81 H945" stroke="{IVORY}" stroke-width="1.5"/>
 <g font-family="Arial,Helvetica,sans-serif">{''.join(segments)}</g>
-<text x="55" y="294" fill="{IVORY}" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" letter-spacing="2">MOST USED REPO LANGUAGES</text>
-<text x="55" y="323" fill="{IVORY}" font-family="Arial,Helvetica,sans-serif" font-size="20">{lang}</text>
-<path d="M55 345 H945" stroke="{IVORY}" stroke-width="1" opacity=".7"/>
-<text x="55" y="377" fill="{IVORY}" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700">LATEST ACTIVE REPO</text>
-<text x="945" y="377" text-anchor="end" fill="{IVORY}" font-family="Arial,Helvetica,sans-serif" font-size="17">{latest}</text>
+<path d="M55 281 H945" stroke="{IVORY}" stroke-width="1" opacity=".7"/>
+<text x="55" y="313" fill="{IVORY}" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700">LATEST ACTIVE REPO</text>
+<text x="945" y="313" text-anchor="end" fill="{IVORY}" font-family="Arial,Helvetica,sans-serif" font-size="17">{latest}</text>
 </svg>
 '''
 
