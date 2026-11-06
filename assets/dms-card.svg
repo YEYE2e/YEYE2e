@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="178" viewBox="0 0 460 178" role="img" aria-labelledby="title desc">
+  <title id="title">Gestión documental</title>
+  <desc id="desc">Flujos, versiones y control de acceso. .NET 10  /  BLAZOR  /  SQL SERVER.</desc>
+  <rect x="1" y="1" width="458" height="176" fill="#F5F3EE" stroke="#111111" stroke-width="2"/>
+  <rect x="22" y="22" width="37" height="30" fill="#111111"/>
+  <text x="30" y="42" fill="#F5F3EE" font-size="15" font-weight="700" font-family="Arial, Helvetica, sans-serif">01</text>
+  <text x="73" y="42" fill="#111111" font-size="12" font-weight="700" letter-spacing="2.5" font-family="Arial, Helvetica, sans-serif">PROYECTO</text>
+  <path d="M410 28 H435 V53" stroke="#111111" stroke-width="3" fill="none"/>
+  <path d="M435 28 L405 58" stroke="#111111" stroke-width="3"/>
+  <text x="22" y="93" fill="#111111" font-size="29" font-weight="700" font-family="Arial, Helvetica, sans-serif">Gestión documental</text>
+  <text x="22" y="120" fill="#111111" font-size="16" font-family="Arial, Helvetica, sans-serif">Flujos, versiones y control de acceso</text>
+  <path d="M22 137 H438" stroke="#111111" stroke-width="1.5"/>
+  <text x="22" y="160" fill="#111111" font-size="13" font-weight="700" font-family="Arial, Helvetica, sans-serif">.NET 10  /  BLAZOR  /  SQL SERVER</text>
+</svg>
