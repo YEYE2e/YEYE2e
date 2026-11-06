@@ -1,21 +1,45 @@
-name: GitHub-Profile-Summary-Cards
+name: Monochrome Profile Refresh
 
 on:
-  schedule: 
-    - cron: "0 0 * * *"
+  schedule:
+    - cron: "17 8 * * *"
   workflow_dispatch:
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    name: generate-github-profile-summary-cards
-    permissions:
-      contents: write
+permissions:
+  contents: write
 
+concurrency:
+  group: profile-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
+      - uses: actions/checkout@v4
+
+      - name: Generate GitHub summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
+          THEME: github_dark
+          NAME: "Yan Portero G."
+          AUTO_PUSH: false
+
+      - name: Update activity dashboard and normalize card colors
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USER: ${{ github.repository_owner }}
+        run: python3 scripts/update_profile.py
+
+      - name: Commit only generated profile visuals
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/profile-dashboard.svg profile-summary-card-output/github_dark/0-profile-details.svg profile-summary-card-output/github_dark/3-stats.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh monochrome profile metrics"
+            git push
+          fi
