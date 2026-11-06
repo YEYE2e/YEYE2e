@@ -1,6 +1,11 @@
 name: Monochrome Profile Refresh
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/profile-cards.yml
+      - scripts/update_profile.py
   schedule:
     - cron: "17 8 * * *"
   workflow_dispatch:
